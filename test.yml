@@ -1,0 +1,10 @@
+- hosts: test-server
+  remote_user: root
+  become: yes
+  become_method: sudo
+
+  tasks:
+  - name: copy UI jar to remote server
+    copy:
+      src: optiedge_ui/target/OptiEdge_UI-0.0.1-SNAPSHOT.jar
+      dest: /work/ 
