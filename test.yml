@@ -36,7 +36,7 @@
       dest: /work/Optiedge/  
 
   - name: Kill service
-    command: sh /work/scripts/killjar.sh
+    command: nohup java -jar /work/Optiedge/OptiEdge_UI-0.0.1-SNAPSHOT.jar    >> /work/log/OptiEdge_UI.log & 2>&1
 
   
  
