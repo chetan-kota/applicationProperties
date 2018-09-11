@@ -36,7 +36,7 @@
       dest: /work/Optiedge/  
 
   - name: Kill service
-    command: kopti
+    command: sh killjar.sh
 
   
  
