@@ -36,7 +36,7 @@
       dest: /work/Optiedge/  
 
   - name: Kill service
-    command: sh killjar.sh
+    command: sh /work/scripts/killjar.sh
 
   
  
