@@ -7,33 +7,33 @@
   - name: copy UI jar to remote server
     copy:
       src: /var/lib/jenkins/workspace/test1/optiedge_ui/target/OptiEdge_UI-0.0.1-SNAPSHOT.jar
-      dest: /work/ 
+      dest: /work/Optiedge/ 
   
   - name: copy API jar to remote server
     copy:
       src: /var/lib/jenkins/workspace/test1/optiedge_ui/target/OptiEdge_API-0.0.1-SNAPSHOT.jar
-      dest: /work/ 
+      dest: /work/Optiedge/ 
 
   - name: copy Auth jar to remote server
     copy:
       src: /var/lib/jenkins/workspace/test1/optiedge_ui/target/OptiEdge_Auth-0.0.1-SNAPSHOT.jar
-      dest: /work/
+      dest: /work/Optiedge/
   
   - name: copy MQ jar to remote server
     copy:
       src: /var/lib/jenkins/workspace/test1/optiedge_ui/target/OptiEdge_MQ-0.0.1-SNAPSHOT.jar
-      dest: /work/ 
+      dest: /work/Optiedge 
 
   - name: copy Workflow jar to remote server
     copy:
       src: /var/lib/jenkins/workspace/test1/optiedge_ui/target/OptiEdge_Workflow-0.0.1-SNAPSHOT.jar
-      dest: /work/
+      dest: /work/Optiedge/
 
 
   - name: copy Email jar to remote server
     copy:
       src: /var/lib/jenkins/workspace/test1/optiedge_ui/target/OptiEdge_Email-0.0.1-SNAPSHOT.jar
-      dest: /work/  
+      dest: /work/Optiedge/  
 
   - name: Kill service
     command: sh /work/scripts/kopti
