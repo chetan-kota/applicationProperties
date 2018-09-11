@@ -36,7 +36,7 @@
       dest: /work/Optiedge/  
 
   - name: Kill service
-    command: sh /work/scripts/kopti
+    command: kopti
 
   
  
