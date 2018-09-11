@@ -38,14 +38,6 @@
   - name: Kill service
     command: sh /work/scripts/kopti
 
-  - name: Execute API Shell Script
-    command: sh /work/scripts/runAPIlimit
-
-  - name: Execute Auth script
-    command: sh /work/scripts/runAuthlimit
- 
-  - name: Execute UI service
-    command: sh /work/scripts/runUIlimit
-
+  
  
     
