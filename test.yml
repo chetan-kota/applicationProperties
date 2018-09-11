@@ -1,5 +1,5 @@
 - hosts: test-server
-  remote_user:optiedge
+  remote_user: optiedge
   
   
 
